@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1980068179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3476131085475045686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ea21ae5966cd794ca104a724617f7d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pisteTeksti: {fileID: 0}
+  tulostaulu: {fileID: 0}
+  voittoteksti: {fileID: 0}
+  eritelikaPiste: 0
+  tayttoPiste: 0
+  pintalikaPiste: 0
+  ponttolikaPiste: 0
+  lattialikaPiste: 0
+  valinelikaPiste: 0
+  roskaPiste: 0
+  sprites:
+  - {fileID: 21300000, guid: 87ad63846abd95d41bd9c1f315f89413, type: 3}
+  - {fileID: 21300000, guid: 2ed3e4ec3b2ed434d86ab29042559abe, type: 3}
+  - {fileID: 21300000, guid: fc54e5a3f87095943a465ca7d2ea95d9, type: 3}
+  - {fileID: 21300000, guid: 70f6467809c76f648923b05aa3f75b97, type: 3}
+  - {fileID: 21300000, guid: b22af43725ebf644baeffdeccbb8cfff, type: 3}
+  - {fileID: 21300000, guid: ed5b8dbe87bf45348afa8728df314a84, type: 3}
+  index: 0
+  eritelianPoistoValmis: 0
+  lattianPuhdistusValmis: 0
+  pintojenSiivousValmis: 0
+  pontonSiivousValmis: 0
+  taytotJaVaihdotValmis: 0
+  valineidenhuoltoValmis: 0
+--- !u!1001 &2245863881357907633
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3393281462451648391, guid: c787d4f9f6d2452468574129ec48df1e,
+        type: 3}
+      propertyPath: m_Name
+      value: pistelaskija
+      objectReference: {fileID: 0}
+    - target: {fileID: 3393281462451648389, guid: c787d4f9f6d2452468574129ec48df1e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.217356
+      objectReference: {fileID: 0}
+    - target: {fileID: 3393281462451648389, guid: c787d4f9f6d2452468574129ec48df1e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.342585
+      objectReference: {fileID: 0}
+    - target: {fileID: 3393281462451648389, guid: c787d4f9f6d2452468574129ec48df1e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -13.11936
+      objectReference: {fileID: 0}
+    - target: {fileID: 3393281462451648389, guid: c787d4f9f6d2452468574129ec48df1e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3393281462451648389, guid: c787d4f9f6d2452468574129ec48df1e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3393281462451648389, guid: c787d4f9f6d2452468574129ec48df1e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3393281462451648389, guid: c787d4f9f6d2452468574129ec48df1e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3393281462451648389, guid: c787d4f9f6d2452468574129ec48df1e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3393281462451648389, guid: c787d4f9f6d2452468574129ec48df1e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3393281462451648389, guid: c787d4f9f6d2452468574129ec48df1e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3393281462451648389, guid: c787d4f9f6d2452468574129ec48df1e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3393281462451648388, guid: c787d4f9f6d2452468574129ec48df1e, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: c787d4f9f6d2452468574129ec48df1e, type: 3}
+--- !u!1 &3476131085475045686 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3393281462451648391, guid: c787d4f9f6d2452468574129ec48df1e,
+    type: 3}
+  m_PrefabInstance: {fileID: 2245863881357907633}
+  m_PrefabAsset: {fileID: 0}
